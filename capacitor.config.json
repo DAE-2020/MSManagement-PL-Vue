@@ -1,0 +1,14 @@
+{
+  "appId": "com.msmanagement.app",
+  "appName": "MSManagement",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {},
+  "windowsAndroidStudioPath": "D:\\Jetbrains\\apps\\AndroidStudio\\ch-0\\201.6953283\\bin\\studio64.exe"
+}

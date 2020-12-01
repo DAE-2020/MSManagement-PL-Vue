@@ -2,6 +2,8 @@
 node_modules
 /dist
 *.psd
+android/
+ios/
 
 
 # local env files
