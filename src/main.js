@@ -7,6 +7,11 @@ import vuetify from './plugins/vuetify';
 import './registerServiceWorker'
 import { startMocking } from './services/mockAdapter'
 import Vuelidate from 'vuelidate'
+import VueLodash from 'vue-lodash'
+import lodash from 'lodash'
+
+// name is optional
+Vue.use(VueLodash, { name: '$_' , lodash: lodash })
 
 Vue.config.productionTip = process.env.NODE_ENV === 'production'
 
