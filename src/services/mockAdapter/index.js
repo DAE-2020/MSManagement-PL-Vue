@@ -1,8 +1,10 @@
 import Vue from 'vue'
+import { loadMockDataSingle as login } from "./login";
 import { loadMockDataSingle as users } from "./users";
 
 function loadMockData (mock) {
-  users(mock, 'metalics/api/login/')
+  login(mock, 'metalics/api/login/')
+  users(mock, 'metalics/api/users')
 }
 
 

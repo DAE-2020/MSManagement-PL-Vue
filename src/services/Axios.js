@@ -9,7 +9,7 @@ import store from '../store/index'
 // How to use interceptors -> https://github.com/axios/axios#interceptors
 // Do something before request is sent
 export function onFulfilledRequest (config) {
-  console.log(config.url);
+  // console.log(config);
   // Do something with request data
   return config
 }
@@ -17,7 +17,7 @@ export function onFulfilledRequest (config) {
 // Do something with request error
 export function onRejectedRequest (error) {
   // Do something with request error
-  console.log(config.url);
+  console.log(error.config);
   return Promise.reject(error)
 }
 
