@@ -5,7 +5,8 @@
       <template v-if="accessToken">
         <v-list-item>
           <v-list-item-avatar>
-            <v-img :src="// noinspection HtmlUnknownTarget user.avatar"
+            <!--suppress HtmlUnknownTarget -->
+            <v-img :src="user.avatar"
                    lazy-src="./assets/logo.png"
                    :alt="user.name"
             ></v-img>
